@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-text font-sans;
+}
+
+.skip-link {
+  @apply sr-only focus:not-sr-only fixed top-0 left-0 m-2 p-2 bg-primary text-background z-50;
+}
